@@ -1,6 +1,6 @@
 import { useContext, useEffect } from "react"
 import ServicoCards from "../../components/ServicoCards/ServicoCards"
-import { PageContext } from "../App"
+import { PageContext } from "../../hooks/PageContext"
 
 const Home = () => {
 

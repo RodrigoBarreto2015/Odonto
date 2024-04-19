@@ -1,5 +1,5 @@
 import { useContext, useEffect } from "react"
-import { PageContext } from "../App"
+import { PageContext } from "../../hooks/PageContext"
 
 const Restauracao = () => {
 

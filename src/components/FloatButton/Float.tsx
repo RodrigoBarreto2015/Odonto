@@ -1,11 +1,11 @@
 import { useContext, useEffect, useState} from "react";
 import "./Float.css";
-import { PageContext } from "../../pages/App";
+import { PageContext } from "../../hooks/PageContext";
 
 const Float = () => {
 
     const {page} = useContext(PageContext)
-    
+
     const [text, setText] = useState(page)
 
     useEffect(() => {
