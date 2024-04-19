@@ -1,15 +1,15 @@
-import { Header } from '../components/Header/Header'
-import { NavbarOs } from '../components/NavBar/Navbar'
+import { RouterProvider } from 'react-router-dom';
+import { Header } from '../components/Header/Header';
+import { Router } from '../routes/Router';
 import './App.css'
 
 function App() {
 
   return (
-    <>
+    <div >
       <Header />
-      <NavbarOs />
-      Home
-    </>
+      <RouterProvider router={Router} />
+    </div>
   )
 }
 
