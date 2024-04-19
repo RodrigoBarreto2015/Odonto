@@ -1,0 +1,14 @@
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+    background-image: url("../../assets/images/zap-icon.png");
+	color:#FFF;
+	text-align:center;
+}
+
+.my-float{
+	margin-top:22px;
+}
