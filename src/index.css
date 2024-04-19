@@ -1,6 +1,7 @@
 :root {
     --primary: #162338;
     --secondary: #CB5F2E;
+    --secondaryHover: #AF4B1C;
   }
 *{
     padding: 0;

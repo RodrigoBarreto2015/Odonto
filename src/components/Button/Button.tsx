@@ -8,7 +8,7 @@ interface Props {
 
 const ButtonGlobal = ({ text }: Props) => {
   return (
-    <Button style={{ width: '100%', color: '#fff', backgroundColor: `var(--secondary)`, border: 'none' }}>{text}</Button>
+    <Button className='btn'>{text}</Button>
   )
 }
 
