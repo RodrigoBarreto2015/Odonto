@@ -6,7 +6,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import BrandIcon from "../../assets/images/brand.png";
 import "./NavBar.css"
 import { Link, Outlet } from "react-router-dom";
-import ButtonGlobal from "../Button/Button";
+import ButtonGlobal from "../Button/LinkButton";
 import { useState } from "react";
 
 const NavbarOs = () => {

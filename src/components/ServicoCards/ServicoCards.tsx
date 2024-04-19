@@ -1,4 +1,4 @@
-import ButtonGlobal from "../Button/Button";
+import LinkButtonGlobal from "../Button/LinkButton";
 import "./ServicoCards.css";
 
 const ServicoCards = () => {
@@ -16,7 +16,7 @@ const ServicoCards = () => {
                             <p className="card-text">Somos especializados em serviços de implante dentário. O implante dentário é uma técnica avançada para substituir dentes perdidos ou danificados, restaurando a funcionalidade e a estética do sorriso.</p>
                         </div>
                         <div className="d-flex just-content-center p-3">
-                            <ButtonGlobal text="Saiba mais" />
+                            <LinkButtonGlobal text="Saiba mais" link="/servicos/implante"/>
                         </div>
                     </div>
                 </div>
@@ -29,7 +29,7 @@ const ServicoCards = () => {
                             <p className="card-text">Somos uma clínica odontológica especializada em serviços de ortodontia, incluindo o tratamento com aparelho ortodôntico. O aparelho ortodôntico é uma técnica para corrigir problemas de alinhamento dos dentes e da mordida, proporcionando um sorriso mais bonito e saudável</p>
                         </div>
                         <div className="d-flex just-content-center p-3">
-                            <ButtonGlobal text="Saiba mais" />
+                            <LinkButtonGlobal text="Saiba mais" link="/servicos/aparelho"/>
                         </div>
                     </div>
                 </div>
@@ -42,7 +42,7 @@ const ServicoCards = () => {
                             <p className="card-text">Uma clinica odontológica especializada em serviços de estética dental, incluindo o tratamento de clareamento dentário. O clareamento dentário é uma técnica para remover manchas e descolorações dos dentes, deixando-os mais brancos e brilhantes.</p>
                         </div>
                         <div className="d-flex just-content-center p-3">
-                            <ButtonGlobal text="Saiba mais" />
+                            <LinkButtonGlobal text="Saiba mais" link="/servicos/clareamento"/>
                         </div>
                     </div>
                 </div>
@@ -55,7 +55,7 @@ const ServicoCards = () => {
                             <p className="card-text">A prótese dentária é um tratamento que visa a substituição de dentes perdidos ou danificados por meio de próteses dentárias fixas ou removíveis. Aqui, a prótese dentária é realizada por uma equipe de profissionais altamente capacitados e com ampla experiência na área, garantindo um tratamento seguro e eficiente.</p>
                         </div>
                         <div className="d-flex just-content-center p-3">
-                            <ButtonGlobal text="Saiba mais" />
+                            <LinkButtonGlobal text="Saiba mais" link="/servicos/protese"/>
                         </div>
                     </div>
                 </div>
@@ -68,7 +68,7 @@ const ServicoCards = () => {
                             <p className="card-text">As cirurgias e extrações são procedimentos importantes, que podem ser necessários para corrigir problemas como dentes do siso impactados, cistos dentais, traumas dentários, entre outros.</p>
                         </div>
                         <div className="d-flex just-content-center p-3">
-                            <ButtonGlobal text="Saiba mais" />
+                            <LinkButtonGlobal text="Saiba mais" link="/servicos/cirurgias"/>
                         </div>
                     </div>
                 </div>
@@ -81,7 +81,7 @@ const ServicoCards = () => {
                             <p className="card-text">A profilaxia dentária é um procedimento de limpeza profunda dos dentes, realizado por um dentista ou higienista dental, que tem como objetivo remover placa bacteriana, tártaro e manchas superficiais, prevenindo o surgimento de doenças periodontais e cáries.</p>
                         </div>
                         <div className="d-flex just-content-center p-3">
-                            <ButtonGlobal text="Saiba mais" />
+                            <LinkButtonGlobal text="Saiba mais" link="/servicos/profilaxia"/>
                         </div>
                     </div>
                 </div>
@@ -94,7 +94,7 @@ const ServicoCards = () => {
                             <p className="card-text">A restauração dental é um procedimento que visa restaurar a estrutura dos dentes danificados por cáries ou outros problemas bucais, por meio da aplicação de materiais restauradores como resina ou amálgama.</p>
                         </div>
                         <div className="d-flex just-content-center p-3">
-                            <ButtonGlobal text="Saiba mais" />
+                            <LinkButtonGlobal text="Saiba mais" link="/servicos/restauracao"/>
                         </div>
                     </div>
                 </div>
@@ -107,7 +107,7 @@ const ServicoCards = () => {
                             <p className="card-text">O tratamento de canal é um procedimento odontológico que visa tratar lesões na polpa dentária, que pode ser causada por cáries profundas, fraturas ou traumas dentais.</p>
                         </div>
                         <div className="d-flex just-content-center p-3">
-                            <ButtonGlobal text="Saiba mais" />
+                            <LinkButtonGlobal text="Saiba mais" link="/servicos/tratamento"/>
                         </div>
                     </div>
                 </div>
@@ -120,7 +120,7 @@ const ServicoCards = () => {
                             <p className="card-text">As lentes de contato dental são uma técnica estética que consiste na aplicação de finas lâminas de porcelana nos dentes, corrigindo imperfeições e melhorando a aparência do sorriso.</p>
                         </div>
                         <div className="d-flex just-content-center p-3">
-                            <ButtonGlobal text="Saiba mais" />
+                            <LinkButtonGlobal text="Saiba mais" link="/servicos/lentes"/>
                         </div>
                     </div>
                 </div>
