@@ -1,7 +1,9 @@
+import ServicoCards from "../../components/ServicoCards/ServicoCards"
+
 const Home = () => {
   return (
     <>
-      <h2>Home</h2>
+      <ServicoCards />
     </>
   )
 }
