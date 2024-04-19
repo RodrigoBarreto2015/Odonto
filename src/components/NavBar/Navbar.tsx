@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
 import BrandIcon from "../../assets/images/brand.png";
-import { Link } from "react-router-dom";
+import "./NavBar.css"
 
 export const NavbarOs = () => {
     return (
