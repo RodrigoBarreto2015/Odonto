@@ -15,7 +15,7 @@ const ServicoCards = () => {
                             <h5 className="card-title">Implante Dentário</h5>
                             <p className="card-text">Somos especializados em serviços de implante dentário. O implante dentário é uma técnica avançada para substituir dentes perdidos ou danificados, restaurando a funcionalidade e a estética do sorriso.</p>
                         </div>
-                        <div className="d-flex just-content-center p-3">
+                        <div className="p-3">
                             <LinkButtonGlobal text="Saiba mais" link="/servicos/implante"/>
                         </div>
                     </div>
