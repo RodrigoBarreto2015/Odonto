@@ -6,6 +6,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import BrandIcon from "../../assets/images/brand.png";
 import "./NavBar.css"
 import { Link, Outlet } from "react-router-dom";
+import ButtonGlobal from "../Button/Button";
 
 const NavbarOs = () => {
     return (
@@ -36,7 +37,7 @@ const NavbarOs = () => {
                                 <NavDropdown.Item as={Link} to="/servicos/lentes">Lentes de contato dental</NavDropdown.Item>
                                 <NavDropdown.Divider />
                                 <NavDropdown.Item href="#action/3.4">
-                                    Agende sua consulta
+                                    <ButtonGlobal text="Agendar consulta"/>
                                 </NavDropdown.Item>
                             </NavDropdown>
                             <Nav.Link as={Link} to="/sobrenos">Sobre nós</Nav.Link>
