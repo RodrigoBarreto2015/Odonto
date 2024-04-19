@@ -1,4 +1,14 @@
+import { useContext, useEffect } from "react"
+import { PageContext } from "../App"
+
 const Restauracao = () => {
+
+  const {page, setPage} = useContext(PageContext)
+
+  useEffect(() => {
+    setPage("Restauração")
+  }, [page])
+
   return (
     <>
       <h2>Restauração dental</h2>

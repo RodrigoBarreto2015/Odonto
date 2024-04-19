@@ -7,6 +7,7 @@
     background-image: url("../../assets/images/zap-icon.png");
 	color:#FFF;
 	text-align:center;
+	cursor: pointer;
 }
 
 .my-float{
