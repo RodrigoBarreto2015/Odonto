@@ -8,7 +8,7 @@ import "./NavBar.css"
 
 export const NavbarOs = () => {
     return (
-        <Navbar expand="lg" className="bg-body-tertiary">
+        <Navbar expand="lg" className="bg-transparent fixed-top">
             <Container>
                 <Navbar.Brand href="#home">
                     <img
