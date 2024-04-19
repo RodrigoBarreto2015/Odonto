@@ -1,4 +1,4 @@
 .navbar-light .navbar-nav .nav-link{ 
-    color: black; 
+    color: var(--primary); 
     font-weight: bold;
 }
