@@ -1,9 +1,11 @@
+import ContatoForm from "../../components/ContatoForm/ContatoForm"
+
 const Contato = () => {
   return (
-    <>
-      <h2 >Entre em contato conosco</h2>
-      
-    </>
+    <div className="container">
+      <h2 className="text-center">Entre em contato conosco</h2>
+      <ContatoForm />
+    </div>
   )
 }
 
