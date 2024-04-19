@@ -1,11 +1,13 @@
+import { NavbarOs } from '../components/NavBar/Navbar'
 import './App.css'
 
 function App() {
 
   return (
-    <div>
-
-    </div>
+    <>
+      <NavbarOs />
+      Home
+    </>
   )
 }
 
