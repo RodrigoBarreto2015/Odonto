@@ -7,14 +7,17 @@ import BrandIcon from "../../assets/images/brand.png";
 import "./NavBar.css"
 import { Link, Outlet } from "react-router-dom";
 import { useRef } from "react";
+import Footer from "../Footer/Footer";
 
 const NavbarOs = () => {
 
-    const collapseRef = useRef(null);
+    const collapseRef = useRef<HTMLInputElement>();
 
-  const hideBars = () => {
-    collapseRef.current.setAttribute("class", "navbar-collapse collapse");
-  };
+    const hideBars = () => {
+        if (collapseRef.current != null) {
+            collapseRef.current.setAttribute("class", "navbar-collapse collapse");
+        }
+    };
 
     return (
         <>
@@ -50,9 +53,10 @@ const NavbarOs = () => {
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
-            <Container className='mt-5 d-flex justify-content-center'>
+            <Container className='mt-5 d-flex justify-content-center mb-5'>
                 <Outlet />
             </Container>
+            <Footer />
         </>
     )
 }
