@@ -11,7 +11,7 @@ import Footer from "../Footer/Footer";
 
 const NavbarOs = () => {
 
-    const collapseRef = useRef<HTMLInputElement>();
+    const collapseRef = useRef<HTMLInputElement>(null);
 
     const hideBars = () => {
         if (collapseRef.current != null) {
