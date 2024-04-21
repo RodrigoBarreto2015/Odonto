@@ -1,16 +1,48 @@
-header{   
-    height: 45vh; 
-    min-height: 400px;
-    background: url("../../assets/images/header.jpeg") no-repeat center center fixed;
+header {
+    height: 45vh;
+    min-height: 500px;
+    background: url("../../assets/images/header.jpeg") no-repeat top fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+
+    position: relative;
+    color: var(--primary);
 }
 
-@media only screen and (max-width: 600px){
-    header{
+.text-header{
+    width: 35%;
+    position: absolute;
+    bottom: 4rem;
+    left: 16px;
+    font-weight: bold;
+}
+
+.text-header p{
+    font-weight: bold;
+    font-size: 1.3rem;
+    text-wrap: wrap;
+}
+
+.text-header span{
+    font-weight: bold;
+    font-size: 0.7rem;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    header {
         min-height: 400px;
         height: 45%;
+        background: url("../../assets/images/header.jpeg") no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    .text-header {
+        display: none
     }
 }

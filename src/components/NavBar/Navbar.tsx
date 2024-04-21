@@ -6,24 +6,12 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import BrandIcon from "../../assets/images/brand.png";
 import "./NavBar.css"
 import { Link, Outlet } from "react-router-dom";
-import ButtonGlobal from "../Button/Button";
-import { useState } from "react";
 
 const NavbarOs = () => {
 
-    const [colorChange, setColorchange] = useState(false);
-    const changeNavbarColor = () => {
-        if (window.scrollY >= 200) {
-            setColorchange(true);
-        } else {
-            setColorchange(false);
-        }
-    };
-    window.addEventListener("scroll", changeNavbarColor);
-
     return (
         <>
-            <Navbar expand="lg" className={colorChange ? "bg-body-tertiary fixed-top" : "bg-transparent fixed-top"}>
+            <Navbar expand="lg" className="bg-white fixed-top">
                 <Container>
                     <Navbar.Brand as={Link} to="/">
                         <img
@@ -37,6 +25,7 @@ const NavbarOs = () => {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" style={{border: 'none'}}/>
                     <Navbar.Collapse id="basic-navbar-nav" >
                         <Nav className="ms-auto" style={{textAlign: 'center' }}>
+                        <Nav.Link as={Link} className="btn-agendar" to="https://api.whatsapp.com/send?phone=5585987550023&text=Ol%C3%A1%2C+gostaria+de+agendar+uma+consulta%3F"><span>Agendar consulta</span></Nav.Link>
                             <NavDropdown title="Consultas e tratamentos" id="basic-nav-dropdown">
                                 <NavDropdown.Item as={Link} to="/servicos/implante">Implante dentário</NavDropdown.Item>
                                 <NavDropdown.Item as={Link} to="/servicos/aparelho">Aparelho ortodôntico</NavDropdown.Item>
@@ -47,10 +36,6 @@ const NavbarOs = () => {
                                 <NavDropdown.Item as={Link} to="/servicos/restauracao">Restauração dental</NavDropdown.Item>
                                 <NavDropdown.Item as={Link} to="/servicos/tratamento">Tratamento de canal</NavDropdown.Item>
                                 <NavDropdown.Item as={Link} to="/servicos/lentes">Lentes de contato dental</NavDropdown.Item>
-                                <NavDropdown.Divider />
-                                <NavDropdown.Item href="#action/3.4">
-                                    <ButtonGlobal text="Agendar consulta" />
-                                </NavDropdown.Item>
                             </NavDropdown>
                             <Nav.Link as={Link} to="/sobrenos">Sobre nós</Nav.Link>
                             <Nav.Link as={Link} to="/contato">Contato</Nav.Link>
