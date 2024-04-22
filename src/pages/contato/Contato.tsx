@@ -8,6 +8,7 @@ const Contato = () => {
 
   useEffect(() => {
     setPage("")
+    window.scrollTo(0, 0)
   }, [page])
 
   return (

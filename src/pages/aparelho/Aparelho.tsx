@@ -7,6 +7,7 @@ const Aparelho = () => {
   
   useEffect(() => {
     setPage("Aparelho ortodôntico")
+    window.scrollTo(0, 0)
   }, [page])
 
   return (

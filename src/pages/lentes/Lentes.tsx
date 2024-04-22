@@ -7,6 +7,7 @@ const Lentes = () => {
 
   useEffect(() => {
     setPage("Lentes de contato")
+    window.scrollTo(0, 0)
   }, [page])
 
   return (

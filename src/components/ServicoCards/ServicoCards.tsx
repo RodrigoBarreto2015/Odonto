@@ -52,7 +52,7 @@ const ServicoCards = () => {
                         <img src="https://firebasestorage.googleapis.com/v0/b/site-sorrifacil.appspot.com/o/tratamentos-u02xqmZkt9O8vx4Y0vDG----imagem.webp?alt=media&token=2040fa5b-5c5f-44ce-8bee-a7f9dc807799" className="card-img-top" alt="..." />
                         <div className="card-body">
                             <h5 className="card-title">Prótese Dentária</h5>
-                            <p className="card-text">A prótese dentária é um tratamento que visa a substituição de dentes perdidos ou danificados por meio de próteses dentárias fixas ou removíveis. Aqui, a prótese dentária é realizada por uma equipe de profissionais altamente capacitados e com ampla experiência na área, garantindo um tratamento seguro e eficiente.</p>
+                            <p className="card-text">Descubra a arte da reabilitação  oral na nossa clínica, onde realizamos próteses dentárias fixas e removíveis</p>
                         </div>
                         <div className="d-flex just-content-center p-3">
                             <LinkButtonGlobal text="Saiba mais" link="/servicos/protese"/>

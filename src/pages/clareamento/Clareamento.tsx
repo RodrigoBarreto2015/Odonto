@@ -7,6 +7,7 @@ const Clareamento = () => {
 
   useEffect(() => {
     setPage("Clareamento dentário")
+    window.scrollTo(0, 0)
   }, [page])
 
   return (

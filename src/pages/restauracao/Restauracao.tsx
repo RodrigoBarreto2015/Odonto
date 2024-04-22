@@ -7,6 +7,7 @@ const Restauracao = () => {
 
   useEffect(() => {
     setPage("Restauração")
+    window.scrollTo(0, 0)
   }, [page])
 
   return (

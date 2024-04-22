@@ -7,6 +7,7 @@ const Implante = () => {
 
   useEffect(() => {
     setPage("Implante dentário")
+    window.scrollTo(0, 0)
   }, [page])
 
   return (

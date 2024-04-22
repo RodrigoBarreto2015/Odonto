@@ -6,6 +6,7 @@ const Cirurgias = () => {
 
   useEffect(() => {
     setPage("Cirurgia e extração")
+    window.scrollTo(0, 0)
   }, [page])
   return (
     <>

@@ -6,6 +6,7 @@ const Profilaxia = () => {
 
   useEffect(() => {
     setPage("Limpeza dental")
+    window.scrollTo(0, 0)
   }, [page])
 
   return (

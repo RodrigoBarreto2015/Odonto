@@ -6,6 +6,7 @@ const Tratamento = () => {
 
   useEffect(() => {
     setPage("Tratamento de canal")
+    window.scrollTo(0, 0)
   }, [page])
   return (
     <>
