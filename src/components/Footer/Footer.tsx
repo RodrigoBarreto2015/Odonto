@@ -17,9 +17,11 @@ const Footer = () => {
             </div>
             <div className="redes-sociais-section">
                 <div>Siga-nos em:</div>
-                <div className="icon"><a href="https://www.instagram.com/s3odonto.odo/"><CiInstagram size="3em"/><span>Instagram</span></a></div>
-                <div className="icon"><a href="https://www.facebook.com/s3odonto/"><CiFacebook size="3em"/><span>Facebook</span></a></div>
-                <div className="icon"><a href=""><CiLinkedin size="3em"/><span>LinkedIn</span></a></div>
+                <div className="icon">
+                    <a href="https://www.instagram.com/s3odonto.odo/"><CiInstagram size="3em"/></a>
+                    <a href="https://www.facebook.com/s3odonto/"><CiFacebook size="3em"/></a>
+                    <a href=""><CiLinkedin size="3em"/></a>
+                </div>
             </div>
         </footer>
     )
