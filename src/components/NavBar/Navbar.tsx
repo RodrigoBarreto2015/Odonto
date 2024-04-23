@@ -45,7 +45,7 @@ const NavbarOs = () => {
                                 <NavDropdown.Item as={Link} onClick={hideBars} to="/servicos/protese">Prótese dentária</NavDropdown.Item>
                                 <NavDropdown.Item as={Link} onClick={hideBars} to="/servicos/restauracao">Restauração dental</NavDropdown.Item>
                                 <NavDropdown.Item as={Link} onClick={hideBars} to="/servicos/tratamento">Tratamento de canal</NavDropdown.Item>
-                                <NavDropdown.Item as={Link} onClick={hideBars} to="/servicos/lentes">Lentes de contato dental</NavDropdown.Item>
+                                <NavDropdown.Item as={Link} onClick={hideBars} to="/servicos/lentes">Facetas em resina</NavDropdown.Item>
                             </NavDropdown>
                             <Nav.Link as={Link} onClick={hideBars} to="/sobrenos">Sobre nós</Nav.Link>
                             <Nav.Link as={Link} onClick={hideBars} to="/contato">Contato</Nav.Link>
