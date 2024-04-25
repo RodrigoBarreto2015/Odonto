@@ -28,7 +28,7 @@ const ServicoCards = () => {
                             <h5 className="card-title">Aparelho Ortodôntico</h5>
                             <p className="card-text">Somos uma clínica odontológica especializada em serviços de ortodontia, incluindo o tratamento com aparelho ortodôntico. O aparelho ortodôntico é uma técnica para corrigir problemas de alinhamento dos dentes e da mordida, proporcionando um sorriso mais bonito e saudável</p>
                         </div>
-                        <div className="d-flex just-content-center p-3">
+                        <div className="p-3">
                             <LinkButtonGlobal text="Saiba mais" link="/servicos/aparelho"/>
                         </div>
                     </div>
@@ -41,7 +41,7 @@ const ServicoCards = () => {
                             <h5 className="card-title">Clareamento Dentário</h5>
                             <p className="card-text">Uma clinica odontológica especializada em serviços de estética dental, incluindo o tratamento de clareamento dentário. O clareamento dentário é uma técnica para remover manchas e descolorações dos dentes, deixando-os mais brancos e brilhantes.</p>
                         </div>
-                        <div className="d-flex just-content-center p-3">
+                        <div className="p-3">
                             <LinkButtonGlobal text="Saiba mais" link="/servicos/clareamento"/>
                         </div>
                     </div>
@@ -54,7 +54,7 @@ const ServicoCards = () => {
                             <h5 className="card-title">Prótese Dentária</h5>
                             <p className="card-text">Descubra a arte da reabilitação  oral na nossa clínica, onde realizamos próteses dentárias fixas e removíveis</p>
                         </div>
-                        <div className="d-flex just-content-center p-3">
+                        <div className="p-3">
                             <LinkButtonGlobal text="Saiba mais" link="/servicos/protese"/>
                         </div>
                     </div>
@@ -67,7 +67,7 @@ const ServicoCards = () => {
                             <h5 className="card-title">Cirurgias e Extrações</h5>
                             <p className="card-text">As cirurgias e extrações são procedimentos importantes, que podem ser necessários para corrigir problemas como dentes do siso impactados, cistos dentais, traumas dentários, entre outros.</p>
                         </div>
-                        <div className="d-flex just-content-center p-3">
+                        <div className="p-3">
                             <LinkButtonGlobal text="Saiba mais" link="/servicos/cirurgias"/>
                         </div>
                     </div>
@@ -80,7 +80,7 @@ const ServicoCards = () => {
                             <h5 className="card-title">Profilaxia (Limpeza)</h5>
                             <p className="card-text">A profilaxia dentária é um procedimento de limpeza profunda dos dentes, realizado por um dentista ou higienista dental, que tem como objetivo remover placa bacteriana, tártaro e manchas superficiais, prevenindo o surgimento de doenças periodontais e cáries.</p>
                         </div>
-                        <div className="d-flex just-content-center p-3">
+                        <div className="p-3">
                             <LinkButtonGlobal text="Saiba mais" link="/servicos/profilaxia"/>
                         </div>
                     </div>
@@ -93,7 +93,7 @@ const ServicoCards = () => {
                             <h5 className="card-title">Restauração Dental</h5>
                             <p className="card-text">A restauração dental é um procedimento que visa restaurar a estrutura dos dentes danificados por cáries ou outros problemas bucais, por meio da aplicação de materiais restauradores como resina ou amálgama.</p>
                         </div>
-                        <div className="d-flex just-content-center p-3">
+                        <div className="p-3">
                             <LinkButtonGlobal text="Saiba mais" link="/servicos/restauracao"/>
                         </div>
                     </div>
@@ -106,7 +106,7 @@ const ServicoCards = () => {
                             <h5 className="card-title">Tratamento de Canal</h5>
                             <p className="card-text">O tratamento de canal é um procedimento odontológico que visa tratar lesões na polpa dentária, que pode ser causada por cáries profundas, fraturas ou traumas dentais.</p>
                         </div>
-                        <div className="d-flex just-content-center p-3">
+                        <div className="p-3">
                             <LinkButtonGlobal text="Saiba mais" link="/servicos/tratamento"/>
                         </div>
                     </div>
@@ -119,7 +119,7 @@ const ServicoCards = () => {
                             <h5 className="card-title">Lentes de Contato Dental</h5>
                             <p className="card-text">As lentes de contato dental são uma técnica estética que consiste na aplicação de finas lâminas de porcelana nos dentes, corrigindo imperfeições e melhorando a aparência do sorriso.</p>
                         </div>
-                        <div className="d-flex just-content-center p-3">
+                        <div className="p-3">
                             <LinkButtonGlobal text="Saiba mais" link="/servicos/lentes"/>
                         </div>
                     </div>
