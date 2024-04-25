@@ -14,9 +14,9 @@ const Float = () => {
 
     const handleFloatClick = () => {
         if (text == "") {
-            window.open("https://api.whatsapp.com/send?phone=5585987550023&text=Ol%C3%A1%2C+gostaria+de+agendar+uma+consulta%3F")
+            window.open("https://api.whatsapp.com/send?phone=5585988603140&text=Ol%C3%A1%2C+gostaria+de+agendar+uma+consulta%3F")
         } else {
-            window.open(`https://api.whatsapp.com/send?phone=5585987550023&text=Ol%C3%A1%2C+gostaria+de+agendar+uma+consulta+referente+a%3A+${text}%3F`)
+            window.open(`https://api.whatsapp.com/send?phone=5585988603140&text=Ol%C3%A1%2C+gostaria+de+agendar+uma+consulta+referente+a%3A+${text}%3F`)
         }
     }
 

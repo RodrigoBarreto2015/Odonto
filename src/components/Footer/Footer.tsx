@@ -7,9 +7,10 @@ const Footer = () => {
         <footer >
             <div className="contato-section">
                 <div>Entre em contato:</div>
-                <div>Ligue para: (85) 99999-9999</div>
+                <div>Ligue para: </div>
+                <div>(85) 98860-3140 ou (85) 3291-7412</div>
                 <div>ou</div>
-                <div><LinkButtonGlobal text="Agende sua cosulta" link="https://api.whatsapp.com/send?phone=5585987550023&text=Ol%C3%A1%2C+gostaria+de+agendar+uma+consulta%3F" /></div>
+                <div><LinkButtonGlobal text="Agende sua cosulta" link="https://api.whatsapp.com/send?phone=5585988603140&text=Ol%C3%A1%2C+gostaria+de+agendar+uma+consulta%3F" /></div>
             </div>
             <div className="endereco-section">
                 <div>Endereço:</div>

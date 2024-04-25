@@ -35,7 +35,7 @@ const NavbarOs = () => {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" style={{ border: 'none' }} />
                     <Navbar.Collapse id="basic-navbar-nav" ref={collapseRef}>
                         <Nav className="ms-auto" style={{ textAlign: 'center' }}>
-                            <Nav.Link as={Link} className="btn-agendar" to="https://api.whatsapp.com/send?phone=5585987550023&text=Ol%C3%A1%2C+gostaria+de+agendar+uma+consulta%3F"><span>Agendar consulta</span></Nav.Link>
+                            <Nav.Link as={Link} className="btn-agendar" to="https://api.whatsapp.com/send?phone=5585988603140&text=Ol%C3%A1%2C+gostaria+de+agendar+uma+consulta%3F"><span>Agendar consulta</span></Nav.Link>
                             <NavDropdown title="Consultas e tratamentos" id="basic-nav-dropdown">
                                 <NavDropdown.Item as={Link} onClick={hideBars} to="/servicos/implante">Implante dentário</NavDropdown.Item>
                                 <NavDropdown.Item as={Link} onClick={hideBars} to="/servicos/aparelho">Aparelho ortodôntico</NavDropdown.Item>
