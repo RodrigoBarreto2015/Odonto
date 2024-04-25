@@ -11,7 +11,11 @@ header {
     color: var(--primary);
 }
 
-.text-header{
+.vstack {
+    display: none;
+}
+
+.text-header {
     width: 35%;
     position: absolute;
     bottom: 4rem;
@@ -19,13 +23,13 @@ header {
     font-weight: bold;
 }
 
-.text-header p{
+.text-header p {
     font-weight: bold;
     font-size: 1.3rem;
     text-wrap: wrap;
 }
 
-.text-header span{
+.text-header span {
     font-weight: bold;
     font-size: 0.7rem;
     color: white;
@@ -43,6 +47,13 @@ header {
     }
 
     .text-header {
-        display: none
+        display: none;
+    }
+
+    .vstack {
+        display: flex;
+        flex: 1 1 auto;
+        flex-direction: column;
+        text-indent: 5px;
     }
 }
