@@ -68,10 +68,24 @@ a{
     footer {   
         grid-template-columns: 1fr;
         grid-template-rows: repeat(3, 1fr);
+
+        grid-template-rows: fit-content auto;
+        height: max-content;
+    }
+
+    .contato-section{
+        height: fit-content;
+        padding: 10px;
     }
 
     .endereco-section{
         margin-left: 0;
-        padding: 25px;
+        padding: auto;
+
+
+    }
+
+    .redes-sociais-section{
+        padding: auto;
     }
 }

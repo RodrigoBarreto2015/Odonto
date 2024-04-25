@@ -55,12 +55,12 @@ const Lentes = () => {
       </section>
       <section className="agende">
         <div className="jumbotron">
-          <h1 className="display-4">Agende Sua Consulta Hoje Mesmo!</h1>
+          <h4 className="display-5">Agende Sua Consulta Hoje Mesmo!</h4>
           <p className="lead">Não espere mais para ter o sorriso dos seus sonhos! Agende uma consulta conosco e descubra como as lentes de contato dental podem transformar sua aparência e sua vida.</p>
           <hr className="my-4" />
           <p>Entre em contato agora mesmo e dê o primeiro passo em direção a um sorriso radiante!</p>
           <p className="lead">
-            <LinkButtonGlobal text="Agende agora" link="https://api.whatsapp.com/send?phone=5585988603140&text=Ol%C3%A1%2C+gostaria+de+agendar+uma+consulta+referente+a%3A+Facetas em resina%3F"/>
+            <LinkButtonGlobal text="Agende agora" link="https://api.whatsapp.com/send?phone=5585988603140&text=Ol%C3%A1%2C+gostaria+de+agendar+uma+consulta+referente+a%3A+Facetas em resina%3F" />
           </p>
         </div>
       </section>
