@@ -31,20 +31,11 @@ header {
 
 .text-header span {
     font-weight: bold;
-    font-size: 0.7rem;
+    font-size: 1rem;
     color: white;
 }
 
-@media only screen and (max-width: 600px) {
-    header {
-        min-height: 400px;
-        height: 45%;
-        background: url("../../assets/images/header.jpeg") no-repeat center center fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-    }
+@media only screen and (max-width: 1000px) {
 
     .text-header {
         display: none;
@@ -56,5 +47,17 @@ header {
         flex-direction: column;
         text-indent: 5px;
         border: 2px solid var(--primary);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+        min-height: 400px;
+        height: 45%;
+        background: url("../../assets/images/header.jpeg") no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
     }
 }
