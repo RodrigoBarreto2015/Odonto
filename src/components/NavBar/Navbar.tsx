@@ -21,7 +21,7 @@ const NavbarOs = () => {
 
     return (
         <>
-            <Navbar expand="lg" className="bg-white fixed-top">
+            <Navbar expand="lg" style={{boxShadow: "0 2px 4px 0 rgba(0,0,0,.2)"}} className="bg-white fixed-top">
                 <Container>
                     <Navbar.Brand as={Link} to="/">
                         <img
