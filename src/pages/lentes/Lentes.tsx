@@ -24,26 +24,26 @@ const Lentes = () => {
         <p>As lentes de contato dental são lâminas ultrafinas feitas de porcelana ou materiais compostos, projetadas para cobrir a parte frontal dos dentes. Elas são personalizadas para se ajustarem perfeitamente aos seus dentes naturais, proporcionando uma aparência natural e harmoniosa.</p>
       </section>
       <section className="beneficios">
-        <h4>Benefícios das Lentes de Contato Dental:</h4>
+        <h4>Benefícios das Lentes de Contato Dental</h4>
         <img src="https://www.clinicaodontoup.com.br/images/servicos/lente-de-contato-dental-01.webp" className="img-fluid rounded" alt="Responsive image" />
         <ul>
-          <li><span><b>Sorriso Perfeito</b><br /> <span style={{ paddingLeft: "20px", display: "block" }}>Corrige imperfeições como manchas, irregularidades, dentes desalinhados ou pequenos espaços entre os dentes.</span></span></li>
-          <li><span><b>Durabilidade</b><br /> <span style={{ paddingLeft: "20px", display: "block" }}>As lentes de contato dental são resistentes e duráveis, proporcionando um sorriso bonito por muitos anos.</span></span></li>
-          <li><span><b>Aparência Natural</b><br /> <span style={{ paddingLeft: "20px", display: "block" }}>Feitas sob medida para se misturarem perfeitamente com seus dentes naturais, as lentes de contato dental proporcionam um sorriso natural e atraente.</span></span></li>
-          <li><span><b>Conforto</b><br /> <span style={{ paddingLeft: "20px", display: "block" }}>São finas e leves, oferecendo conforto ao falar, comer e sorrir.</span></span></li>
-          <li><span><b>Melhora a Confiança</b><br /> <span style={{ paddingLeft: "20px", display: "block" }}>Um sorriso bonito pode aumentar sua autoconfiança e melhorar sua interação social e profissional.</span></span></li>
+          <li><span><b>Sorriso Perfeito</b><br />Corrige imperfeições como manchas, irregularidades, dentes desalinhados ou pequenos espaços entre os dentes.</span></li>
+          <li><span><b>Durabilidade</b><br />As lentes de contato dental são resistentes e duráveis, proporcionando um sorriso bonito por muitos anos.</span></li>
+          <li><span><b>Aparência Natural</b><br />Feitas sob medida para se misturarem perfeitamente com seus dentes naturais, as lentes de contato dental proporcionam um sorriso natural e atraente.</span></li>
+          <li><span><b>Conforto</b><br />São finas e leves, oferecendo conforto ao falar, comer e sorrir.</span></li>
+          <li><span><b>Melhora a Confiança</b><br />Um sorriso bonito pode aumentar sua autoconfiança e melhorar sua interação social e profissional.</span></li>
         </ul>
       </section>
       <section className="funcionamento">
         <h4>Como Funciona o Procedimento</h4>
         <img src="https://www.clinicaodontoup.com.br/images/servicos/lente-de-contato-dental-02.webp" className="img-fluid rounded" alt="Responsive image" />
-        <ol className="gradient-list">
-          <li><b>Consulta Inicial</b> <br /> <span style={{ paddingLeft: "20px", display: "block" }}>Agende uma consulta com um dentista especializado em estética dental para avaliar a viabilidade das lentes de contato dental para o seu caso.</span></li>
-          <li><b>Preparação</b> <br /> <span style={{ paddingLeft: "20px", display: "block" }}>Seu dentista irá preparar os dentes removendo uma fina camada de esmalte para garantir um encaixe perfeito das lentes.</span></li>
-          <li><b>Moldagem</b> <br /> <span style={{ paddingLeft: "20px", display: "block" }}>Será feita uma moldagem precisa dos seus dentes para criar as lentes de contato sob medida.</span></li>
-          <li><b>Instalação</b> <br /> <span style={{ paddingLeft: "20px", display: "block" }}>Após a fabricação das lentes, elas serão cuidadosamente coladas sobre os seus dentes naturais usando cimento adesivo especial.</span></li>
-          <li><b>Ajustes Finais</b> <br /> <span style={{ paddingLeft: "20px", display: "block" }}>Se necessário, seu dentista fará ajustes finos para garantir que suas novas lentes de contato dental ofereçam o melhor resultado estético e funcional.</span></li>
-        </ol>
+        <ul>
+          <li><span><b>Consulta Inicial</b> <br />Agende uma consulta com um dentista especializado em estética dental para avaliar a viabilidade das lentes de contato dental para o seu caso.</span></li>
+          <li><span><b>Preparação</b> <br />Seu dentista irá preparar os dentes removendo uma fina camada de esmalte para garantir um encaixe perfeito das lentes.</span></li>
+          <li><span><b>Moldagem</b> <br />Será feita uma moldagem precisa dos seus dentes para criar as lentes de contato sob medida.</span></li>
+          <li><span><b>Instalação</b> <br />Após a fabricação das lentes, elas serão cuidadosamente coladas sobre os seus dentes naturais usando cimento adesivo especial.</span></li>
+          <li><span><b>Ajustes Finais</b> <br />Se necessário, seu dentista fará ajustes finos para garantir que suas novas lentes de contato dental ofereçam o melhor resultado estético e funcional.</span></li>
+        </ul>
       </section>
       <section className="escolha">
         <h4>Por que Escolher Nossa Clínica</h4>
