@@ -4,7 +4,7 @@ import { Button } from 'react-bootstrap';
 
 interface Props {
   text: string,
-  link: string
+  link: string,
 }
 
 const LinkButtonGlobal = ({ text, link }: Props) => {

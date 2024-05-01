@@ -53,7 +53,7 @@ const NavbarOs = () => {
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
-            <Container className='mt-5 d-flex justify-content-center mb-5'>
+            <Container className='mt-5 d-flex justify-content-center mb-5 p-4'>
                 <Outlet />
             </Container>
             <Footer />
