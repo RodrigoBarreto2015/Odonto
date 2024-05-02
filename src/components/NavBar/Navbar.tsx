@@ -3,7 +3,7 @@ import Nav from "react-bootstrap/esm/Nav"
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
-import BrandIcon from "../../assets/images/brand.png";
+import BrandIcon from "../../assets/images/brand.jpg";
 import "./NavBar.css"
 import { Link, Outlet } from "react-router-dom";
 import { useRef } from "react";
