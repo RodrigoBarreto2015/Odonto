@@ -18,7 +18,7 @@ const Lentes = () => {
     <div className="container-lente" >
       <h2>Transforme Seu Sorriso com Lentes de Contato Dental</h2>
       <ScrollAnimation animateIn="fadeIn">
-        <section className="apresentacao mt-5">          
+        <section className="apresentacao">          
           <img src="https://sorrisologia.com.br/documents/37259750/37287069/8976-voce-sabia-que-a-lente-de-contato-dental-slider_medias-1.jpg" className="img-fluid rounded w-4" alt="Responsive image" />
           <p>Bem-vindo à nossa página dedicada às lentes de contato dental, a solução moderna e eficaz para um sorriso deslumbrante! Aqui você encontrará todas as informações que precisa para entender como as lentes de contato podem transformar o seu sorriso e melhorar sua confiança.</p>
         </section>

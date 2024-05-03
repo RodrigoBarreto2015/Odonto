@@ -28,6 +28,7 @@ h4 {
 }
 
 .apresentacao {
+    margin-top: 5rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
@@ -41,12 +42,14 @@ h4 {
 
 .apresentacao>p{
     grid-area: 1 / 2 / 2 / 3;
+    margin-top: 1.5rem;
     justify-content: end;
 }
 
 
 .beneficios>ul,
 .funcionamento>ul {
+    margin-top: 1.5rem;
     counter-reset: li;
     list-style: none;
     padding: 0;
@@ -169,8 +172,14 @@ h4 {
 
 @media only screen and (max-width: 1000px) {
 
+    .apresentacao{
+        margin-top: 1rem;
+    }
+
+    .apresentacao,
     .funcionamento,
     .beneficios {
         display: block;
+        
     }
 }
