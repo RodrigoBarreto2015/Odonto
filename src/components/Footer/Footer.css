@@ -5,7 +5,7 @@ footer {
 
     background-color: var(--primary);
 
-    padding: 20px;
+    padding: 30px;
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -26,7 +26,6 @@ footer {
 }
 
 .endereco-section{
-    margin-top: 5rem;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, fit-content);
@@ -37,7 +36,6 @@ footer {
 }
 
 .redes-sociais-section{
-    margin-top: 3rem;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 1fr);
@@ -48,7 +46,6 @@ footer {
 
 .redes-sociais-section .icon{
     text-align: center;
-    gap: 8px;
 }
 
 .redes-sociais-section .icon span{
@@ -60,7 +57,7 @@ a{
     color: inherit;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 840px) {
     footer {   
         grid-template-columns: 1fr;
         grid-template-rows: repeat(3, fit-content);
@@ -71,10 +68,12 @@ a{
     }
 
     .endereco-section{
+        margin-top: 3rem;
         margin-left: 0;
     }
 
     .redes-sociais-section{
+        margin-top: 3rem;
         align-self: self-start;
     }
 }
