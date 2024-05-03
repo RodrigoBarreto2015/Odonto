@@ -5,11 +5,12 @@ import { Button } from 'react-bootstrap';
 interface Props {
   text: string,
   link: string,
+  className?: string
 }
 
-const LinkButtonGlobal = ({ text, link }: Props) => {
+const LinkButtonGlobal = ({ text, link, className}: Props) => {
   return (
-    <Link to={link}><Button className='btn'>{text}</Button></Link>
+    <Link to={link}><Button className={`btn ${className}`}>{text}</Button></Link>
   )
 }
 
