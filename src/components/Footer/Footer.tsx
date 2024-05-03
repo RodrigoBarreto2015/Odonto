@@ -1,6 +1,6 @@
 import "./Footer.css";
 import LinkButtonGlobal from "../Button/LinkButton";
-import { CiInstagram, CiFacebook, CiLinkedin } from "react-icons/ci";
+import { CiInstagram, CiFacebook } from "react-icons/ci";
 
 const Footer = () => {
     return (
@@ -21,7 +21,6 @@ const Footer = () => {
                 <div className="icon">
                     <a href="https://www.instagram.com/s3odonto.odo/"><CiInstagram size="3em"/></a>
                     <a href="https://www.facebook.com/s3odonto/"><CiFacebook size="3em"/></a>
-                    <a href=""><CiLinkedin size="3em"/></a>
                 </div>
             </div>
         </footer>
