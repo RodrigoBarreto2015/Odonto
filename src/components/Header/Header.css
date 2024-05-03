@@ -1,7 +1,7 @@
 header {
     height: 45vh;
     min-height: 500px;
-    background: url("../../assets/images/header.jpeg") no-repeat top fixed;
+    background: url("../../assets/images/header.jpg") center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -19,17 +19,17 @@ header {
     width: 35%;
     position: absolute;
     bottom: 4rem;
-    left: 16px;
+    left: 15px;
     font-weight: bold;
 }
 
-.text-header p {
+.title {
     font-weight: bold;
     font-size: 1.3rem;
     text-wrap: wrap;
 }
 
-.text-header span {
+.subtitle {
     font-weight: bold;
     font-size: 1rem;
     color: white;
@@ -45,7 +45,6 @@ header {
         display: flex;
         flex: 1 1 auto;
         flex-direction: column;
-        text-indent: 5px;
         border: 2px solid var(--primary);
     }
 }
@@ -54,7 +53,7 @@ header {
     header {
         min-height: 400px;
         height: 45%;
-        background: url("../../assets/images/header.jpeg") no-repeat center center fixed;
+        background: url("../../assets/images/header.jpg") center;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
